@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IRONFUEL | Premium Gym Supplements</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<div id="sp"></div>
+<header><div class="wrap nav"><a class="logo" href="#top"><u>I</u>IRONFUEL</a>
+<nav class="links"><a href="#shop">SHOP</a><a href="#why">WHY US</a><a href="#community">COMMUNITY</a></nav>
+<button class="cartb" onclick="cartOpen(1)">CART (<span id="cc">0</span>)</button></div></header>
+
+<main id="home">
+<div class="hero" id="top"><div class="hv"><img id="hi" alt="Premium Muscle Fuel whey protein tub"></div><div class="wrap">
+<div class="eyebrow">IRONFUEL PROTEIN · SERIES 01 <i></i> LAB TESTED</div>
+<h1>FUEL THE <span>GRIND.</span><br>OWN THE <em>RESULT.</em></h1>
+<p>Premium whey, creatine and pre-workout for the next generation of lifters. <b>Every order includes a free wellness gift.</b></p>
+<div class="row"><a class="btn" href="#shop">Shop Now →</a><a class="btn o" href="#why">▸ Our Story</a></div>
+<div class="stats"><div><b>50K+</b><small>Athletes</small></div><div><b>100%</b><small>Lab Tested</small></div><div><b>4.8★</b><small>Rated</small></div></div></div></div>
+
+<section id="shop"><div class="wrap"><span class="pill">ELITE FUEL · 09 SKUS</span>
+<div class="sh"><h2>BUILT TO BE<br><span>UNDEFEATED.</span></h2><p>Every scoop is engineered for the grind, from college lifters to competitive athletes. Add to cart or buy now to unlock your free gift.</p></div>
+<div class="tabs" id="tabs"></div><div class="grid" id="pg"></div></div></section>
+
+<section id="why" style="background:#0a0a0c"><div class="wrap"><span class="pill">WHY IRONFUEL</span>
+<div class="sh"><h2>BUILT FOR<br><span>CHAMPIONS.</span></h2><div class="arr"><button onclick="rail('r1',-1)" aria-label="Previous">←</button><button onclick="rail('r1',1)" aria-label="Next">→</button></div></div>
+<div class="rail" id="r1"><div><i class="ic">⚗</i><h3>LAB TESTED</h3><p>Every batch independently tested for purity, heavy metals and banned substances.</p></div>
+<div><i class="ic">⛨</i><h3>NO FILLERS</h3><p>Zero amino spiking. Zero maltodextrin junk. What's on the label is what's in the scoop.</p></div>
+<div><i class="ic">❦</i><h3>CLEAN LABEL</h3><p>No artificial colours. Naturally flavoured. Honest macros.</p></div>
+<div><i class="ic">✓</i><h3>CERTIFIED</h3><p>FSSAI, GMP and ISO-aligned processes at every checkpoint.</p></div></div></div></section>
+
+<section id="gift"><div class="wrap"><div class="gift"><span class="pill" style="color:var(--ac)">FREE WITH EVERY ORDER</span><h2>YOUR ONE-TIME <span>WELLNESS GIFT</span></h2><p class="sub" style="margin-bottom:0;max-width:620px">We care about your results beyond checkout. After every successful payment you unlock a personal toolkit, as our thank-you.</p></div>
+<div class="steps"><div><h3>Place Your Order</h3><p>Add supplements to your cart and pay securely.</p></div><div><h3>Unlock Your Gift</h3><p>Once payment is confirmed, your gift opens automatically, once per order.</p></div><div><h3>Get Your Plan</h3><p>Calorie calculator, BMI, and a veg or non-veg diet plan you can edit.</p></div></div></div></section>
+
+<section id="community" style="background:#0a0a0c"><div class="wrap"><span class="pill">COMMUNITY GAINS</span>
+<div class="sh"><h2>REAL RESULTS.<br><span>REAL PEOPLE.</span></h2><div class="arr"><button onclick="rail('r2',-1)" aria-label="Previous">←</button><button onclick="rail('r2',1)" aria-label="Next">→</button></div></div>
+<div class="rail" id="r2">
+<div><span class="q">“</span><p style="font-size:16px;color:var(--tx)">Switched from imported whey. Same gains, better price, zero bloating. Yeh sirf protein nahi, statement hai.</p><div class="by"><i>AM</i><span>AARAV MEHTA<small>POWERLIFTER · MUMBAI</small></span><s>★★★★★</s></div></div>
+<div><span class="q">“</span><p style="font-size:16px;color:var(--tx)">The BCAA flavour is insane and the formula is solid. Finally a brand that gets it without the gimmick.</p><div class="by"><i>SK</i><span>SNEHA KAPOOR<small>CROSSFIT · BENGALURU</small></span><s>★★★★★</s></div></div>
+<div><span class="q">“</span><p style="font-size:16px;color:var(--tx)">The free diet plan after my order was a great surprise. Easy to swap meals and stick to.</p><div class="by"><i>KR</i><span>KABIR RAO<small>BODYBUILDER · DELHI</small></span><s>★★★★★</s></div></div>
+<div><span class="q">“</span><p style="font-size:16px;color:var(--tx)">Fast delivery, premium packaging and the chat support actually answers properly.</p><div class="by"><i>RP</i><span>RIYA PATEL<small>ATHLETE · PUNE</small></span><s>★★★★★</s></div></div></div></div></section>
+
+<section><div class="wrap nl"><div><span class="pill">JOIN THE SQUAD</span><h2>FIRST DROPS.<br><span>EXCLUSIVE PRICES.</span></h2><p class="sub" style="margin:0">Sign up for early access to launches and member-only discounts. No spam, just gains.</p></div>
+<form onsubmit="event.preventDefault();this.innerHTML='<p style=&quot;padding:16px&quot;>You are in. Welcome to the squad ✓</p>'"><input type="email" required placeholder="your@email.com"><button class="btn">Subscribe</button></form></div></section>
+
+
+</main>
+<main id="pdp" hidden></main>
+
+<footer><div class="wrap"><div class="big">IRONFUEL<b>.</b></div><div class="g"><div class="tl">KYUNKI HAR GHAR SE EK CHAMPION<b>NIKALNA CHAHIYE.</b><p style="font:300 13px Outfit,sans-serif;color:var(--mu);margin-top:12px">Made in India. Lab tested. Fuelling the next generation of athletes.</p></div>
+<div><h4>SHOP</h4><a href="#shop">Whey Protein</a><a href="#shop">BCAA</a><a href="#shop">Creatine</a><a href="#shop">Vitamins</a></div>
+<div><h4>COMPANY</h4><a href="#why">Our Story</a><a href="#gift">Free Gift</a><a href="#community">Community</a></div></div>
+<p style="margin-top:30px;font-size:12px">© 2026 IronFuel. Demo store. Supplements are not a substitute for a balanced diet.</p></div></footer>
+
+<div class="drawer" id="dr"><div style="display:flex;justify-content:space-between"><h3 style="font-size:28px">YOUR CART</h3><button class="x" style="position:static" onclick="cartOpen(0)">×</button></div>
+<div id="ci" style="flex:1;overflow:auto"></div><div id="ct" style="padding:14px 0;font-weight:700"></div><button class="btn" onclick="checkout()">Checkout</button></div>
+
+<div class="ov" id="ov"><div class="modal"><button class="x" onclick="closeM()">×</button><div id="mb"></div></div></div>
+
+<div id="bot"><div id="cb"><h4>IronFuel Coach</h4><div id="msgs"></div>
+<div style="padding:0 10px" id="qc"></div><form onsubmit="return send(event)"><input id="qi" placeholder="Ask anything…" autocomplete="off"><button class="btn" style="padding:8px 14px">➤</button></form></div>
+<button onclick="cb.classList.toggle('on')" aria-label="Chat">💬</button></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/diet.js"></script>
+<script src="js/product.js"></script>
+<script src="js/app.js"></script>
+<script src="js/chat.js"></script>
+</body></html>
